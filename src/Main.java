@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+    Czlowiek czlowiek = new Czlowiek("Adam", 21, Oczy.Piwne, Wlosy.Czarne);
     }
 }
