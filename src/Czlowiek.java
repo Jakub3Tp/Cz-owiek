@@ -13,6 +13,6 @@ public class Czlowiek {
 
     @Override
     public String toString() {
-        return "%s Oto Ma %s ma %s ma %s", , marka, rozmiar;
+        return String.format("Oto %s ma %s lat i ma %s czy i ma %s włosy", imie, wiek, oczy, wlosy);
     }
 }
